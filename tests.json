@@ -1,0 +1,54 @@
+{
+    "Candy Net Person": {
+        "schemas": [
+            {
+                "label": "prod",
+                "id": "RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person"
+            }
+        ],
+        "credDefs": [
+            {
+                "label": "prod",
+                "id": "RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person"
+            }
+        ],
+        "revocRegDef":[
+            {
+                "label":"prod",
+                "id":"RGjWbW1eycP7FrMf4QJvX8:4:RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person:CL_ACCUM:0747da7c-1d0b-489e-aa84-9e94609e8174"
+            }
+        ]
+    },
+    "Sovrin Net Member Card": {
+        "schemas": [
+            {
+                "label": "prod",
+                "id": "4xE68b6S5VRFrKMMG1U95M:2:Member Card:1.5.1"
+            },
+            {
+                "label": "test",
+                "id": "AuJrigKQGRLJajKAebTgWu:2:Member Card:1.5.1"
+            }
+        ],
+        "credDefs": [
+            {
+                "label": "prod",
+                "id": "4xE68b6S5VRFrKMMG1U95M:3:CL:59232:default"
+            },
+            {
+                "label": "test",
+                "id": "AuJrigKQGRLJajKAebTgWu:3:CL:209526:default"
+            }
+        ],
+        "revocRegDef":[
+            {
+                "label":"prod",
+                "id":"4xE68b6S5VRFrKMMG1U95M:4:4xE68b6S5VRFrKMMG1U95M:3:CL:59232:default:CL_ACCUM:521a117c-c68f-4622-949e-48c853b33ee8"
+            },
+            {
+                "label":"test",
+                "id":"AuJrigKQGRLJajKAebTgWu:4:AuJrigKQGRLJajKAebTgWu:3:CL:209526:default:CL_ACCUM:9fc50d37-b15d-47f2-8ada-75c2249abc44"
+            }
+        ]
+    }
+}
