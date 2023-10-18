@@ -88,7 +88,7 @@ const run = async () => {
         console.log("\ttesting revocation registry definitions:")
         if (revRegDefs) {
             for (const revRegDef of revRegDefs) {
-                console.log(`\t\ttesting credential definition ${revRegDef.id} (${revRegDef.label}):`)
+                console.log(`\t\ttesting revocation registry definition ${revRegDef.id} (${revRegDef.label}):`)
                 const revRegCommandStart = Date.now()
                 agent.modules.anoncreds.getRevocationRegistryDefinition(revRegDef.id)
                 const revRegCommandEnd = Date.now()
@@ -97,6 +97,7 @@ const run = async () => {
             }
         }
     }
+    console.log("All tests completed")
     process.exit(0)
 }
 

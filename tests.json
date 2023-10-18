@@ -12,10 +12,30 @@
                 "id": "RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person"
             }
         ],
-        "revocRegDef":[
+        "revocRegDef": [
             {
-                "label":"prod",
-                "id":"RGjWbW1eycP7FrMf4QJvX8:4:RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person:CL_ACCUM:0747da7c-1d0b-489e-aa84-9e94609e8174"
+                "label": "prod",
+                "id": "RGjWbW1eycP7FrMf4QJvX8:4:RGjWbW1eycP7FrMf4QJvX8:3:CL:13:Person:CL_ACCUM:0747da7c-1d0b-489e-aa84-9e94609e8174"
+            }
+        ]
+    },
+    "Sovrin Net Unverified Person": {
+        "schemas": [
+            {
+                "id": "NCwGwDrzbZEqesYQummzWW:2:unverified_person:0.4.0",
+                "label": "dev"
+            }
+        ],
+        "credDefs": [
+            {
+                "id": "NCwGwDrzbZEqesYQummzWW:3:CL:211383:default",
+                "label": "dev"
+            }
+        ],
+        "revocRegDef": [
+            {
+                "id": "NCwGwDrzbZEqesYQummzWW:4:NCwGwDrzbZEqesYQummzWW:3:CL:211383:default:CL_ACCUM:a12f2ec8-6fb2-4990-877f-d30d998788df",
+                "label":"dev"
             }
         ]
     },
@@ -40,14 +60,14 @@
                 "id": "AuJrigKQGRLJajKAebTgWu:3:CL:209526:default"
             }
         ],
-        "revocRegDef":[
+        "revocRegDef": [
             {
-                "label":"prod",
-                "id":"4xE68b6S5VRFrKMMG1U95M:4:4xE68b6S5VRFrKMMG1U95M:3:CL:59232:default:CL_ACCUM:521a117c-c68f-4622-949e-48c853b33ee8"
+                "label": "prod",
+                "id": "4xE68b6S5VRFrKMMG1U95M:4:4xE68b6S5VRFrKMMG1U95M:3:CL:59232:default:CL_ACCUM:521a117c-c68f-4622-949e-48c853b33ee8"
             },
             {
-                "label":"test",
-                "id":"AuJrigKQGRLJajKAebTgWu:4:AuJrigKQGRLJajKAebTgWu:3:CL:209526:default:CL_ACCUM:9fc50d37-b15d-47f2-8ada-75c2249abc44"
+                "label": "test",
+                "id": "AuJrigKQGRLJajKAebTgWu:4:AuJrigKQGRLJajKAebTgWu:3:CL:209526:default:CL_ACCUM:9fc50d37-b15d-47f2-8ada-75c2249abc44"
             }
         ]
     }
